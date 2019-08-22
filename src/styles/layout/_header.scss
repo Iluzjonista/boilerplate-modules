@@ -2,19 +2,27 @@
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
 .header-nav {
-  background-color: #46acc2;
+  background-color: #191919;
   display: flex;
   padding: 16px;
   font-family: sans-serif;
   color: white;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  border-bottom: 1px solid #313439;
 }
 
 .header-nav__Link {
-  padding-right: 8px;
+  padding-right: 10px;
 }
 
 .header-nav__Items {
   display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
 }
 
 .header-nav__Items--right {
