@@ -1,2 +1,10 @@
 import './styles/main.scss'
-//document.body.innerHTML = '<h1>Hello!</h1> <p>I am styled.</p>'
+
+function classToggle() {
+    const navs = document.querySelectorAll('.header-nav__Items')
+    
+    navs.forEach(nav => nav.classList.toggle('header-nav__ToggleShow'));
+  }
+  
+  document.querySelector('.header-nav__Link-toggle')
+    .addEventListener('click', classToggle);

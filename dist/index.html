@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  <script src="https://kit.fontawesome.com/0e4434d68f.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="shortcut icon" href="http://www.duckhousecorbridge.co.uk/wp-content/uploads/2016/02/Duck-Favicon.png">
@@ -11,19 +12,40 @@
 </head>
 
 <body>
+  <script type="text/javascript" src="main.js"></script>
   <!-- HEADER -->
-  <div class="header">
-
-    <div class="w-logo ">
-
+  <div class="header-nav">
+    <div class="header-nav__Link header-nav__Link-brand">
+      Website title
+    </div>
+    <div class="header-nav__Link header-nav__Link-toggle">
+      <i class="fas fa-bars"></i>
     </div>
 
-
     <!-- NAV -->
-    <nav class="w-nav">
-      <div class="w-nav-h">
+    <nav class="header-nav__Items">
+      <div class="header-nav__Link">
+        <a class="header-nav__a" href="#">Longer Link</a>
       </div>
-    </nav><!-- /NAV -->
+      <div class="header-nav__Link">
+        <a class="header-nav__a" href="#">Longer Link</a>
+      </div>
+      <div class="header-nav__Link">
+        <a class="header-nav__a" href="#">Longer Link</a>
+      </div>
+    </nav>
+    <nav class="header-nav__Items header-nav__Items--right">
+       <div class="header-nav__Link">
+        <a class="header-nav__a" href="#">
+          <i class="fab fa-github"></i></a>
+       </div>
+       <div class="header-nav__Link">
+        <a class="header-nav__a" href="#">
+          <i class="fab fa-linkedin"></i></a>
+       </div>
+     </nav>
+  </div>
+  <!-- /NAV -->
 
   </div>
   <!-- /HEADER -->
@@ -32,7 +54,6 @@
   <div class="l-main">
   </div>
 
-  <script type="text/javascript" src="main.js"></script>
 <script type="text/javascript" src="main.js"></script></body>
 
 </html>
