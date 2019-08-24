@@ -1,59 +1,65 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <script src="https://kit.fontawesome.com/0e4434d68f.js"></script>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link
+      rel="shortcut icon"
+      href="http://www.duckhousecorbridge.co.uk/wp-content/uploads/2016/02/Duck-Favicon.png"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Moduł na page-description" />
+    <title>My own template for modules</title>
+  </head>
 
-<head>
-  <script src="https://kit.fontawesome.com/0e4434d68f.js"></script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link rel="shortcut icon" href="http://www.duckhousecorbridge.co.uk/wp-content/uploads/2016/02/Duck-Favicon.png">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description" content="Moduł na page-description">
-  <title>My own template for modules</title>
-</head>
+  <body>
+    <script type="text/javascript" src="main.js"></script>
+    <!-- HEADER -->
+    <div class="header-nav">
+      <div class="header-nav__Link header-nav__Link-brand">
+        Website title
+      </div>
+      <div class="header-nav__Link header-nav__Link-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
 
-<body>
-  <script type="text/javascript" src="main.js"></script>
-  <!-- HEADER -->
-  <div class="header-nav">
-    <div class="header-nav__Link header-nav__Link-brand">
-      Website title
+      <!-- NAV -->
+      <nav class="header-nav__Items">
+        <div class="header-nav__Link">
+          <a class="header-nav__a" href="#">Longer Link</a>
+        </div>
+        <div class="header-nav__Link">
+          <a class="header-nav__a" href="#">Longer Link</a>
+        </div>
+        <div class="header-nav__Link">
+          <a class="header-nav__a" href="#">Longer Link</a>
+        </div>
+      </nav>
+      <nav class="header-nav__Items header-nav__Items--right">
+        <div class="header-nav__Link">
+          <a class="header-nav__a" href="#"> <i class="fab fa-github"></i></a>
+        </div>
+        <div class="header-nav__Link">
+          <a class="header-nav__a" href="#"> <i class="fab fa-linkedin"></i></a>
+        </div>
+      </nav>
     </div>
-    <div class="header-nav__Link header-nav__Link-toggle">
-      <i class="fas fa-bars"></i>
+    <!-- /NAV -->
+    <div class="header-intro">
+      <div class="header-intro__Text">
+        <h1>Sample hello world</h1>
+        <p class="header-text">Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div id="particleCanvas-Orange" class="e-particles-orange"></div>
+      <div id="particleCanvas-Blue" class="e-particles-blue"></div>
     </div>
+    <!-- /HEADER -->
 
-    <!-- NAV -->
-    <nav class="header-nav__Items">
-      <div class="header-nav__Link">
-        <a class="header-nav__a" href="#">Longer Link</a>
-      </div>
-      <div class="header-nav__Link">
-        <a class="header-nav__a" href="#">Longer Link</a>
-      </div>
-      <div class="header-nav__Link">
-        <a class="header-nav__a" href="#">Longer Link</a>
-      </div>
-    </nav>
-    <nav class="header-nav__Items header-nav__Items--right">
-       <div class="header-nav__Link">
-        <a class="header-nav__a" href="#">
-          <i class="fab fa-github"></i></a>
-       </div>
-       <div class="header-nav__Link">
-        <a class="header-nav__a" href="#">
-          <i class="fab fa-linkedin"></i></a>
-       </div>
-     </nav>
-  </div>
-  <!-- /NAV -->
-
-  </div>
-  <!-- /HEADER -->
-
-  <!-- MAIN -->
-  <div class="l-main">
-  </div>
-
-<script type="text/javascript" src="main.js"></script></body>
-
+    <!-- MAIN -->
+    <div class="l-main"></div>
+  <script type="text/javascript" src="main.js"></script></body>
 </html>
