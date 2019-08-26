@@ -1,3 +1,13 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
+.footer {
+    background-color: $black;
+    padding-top: 1rem;
+    color:$white;
+}
+.footer__copyright {
+  font-size: 0.75rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
