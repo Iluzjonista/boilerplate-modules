@@ -11,7 +11,7 @@
   box-sizing: border-box;
   border-bottom: 1px solid #313439;
   text-decoration: none;
-  min-width: 250px;
+  min-width: $min-width;
 }
 
 .header-nav__Link {
@@ -77,7 +77,7 @@
   justify-content: center;
   height: 100%;
   margin: 0 auto;
-  min-width: 250px;
+  min-width: $min-width;
   overflow: hidden;
   position: relative;
   background-color: $dark-grey;
@@ -147,7 +147,7 @@
     .header-text {
       max-width: 80%;
       display: block;
-      margin: 0 auto;
+      margin: 20px auto;
     }
   }
 }
