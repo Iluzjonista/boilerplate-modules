@@ -46,8 +46,10 @@ $dark-grey: rgb(68, 68, 68) !default;
 
 /// Container's maximum width
 /// @type Length
+$large-width: 1780px;
 $max-width: 1180px !default;
 $medium-width: 768px;
+$small-width: 320px;
 $min-width: 250px;
 
 
