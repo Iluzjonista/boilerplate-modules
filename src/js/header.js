@@ -4,8 +4,7 @@ function classToggle() {
     navs.forEach(nav => nav.classList.toggle('header-nav__ToggleShow'));
   }
   
-  document.querySelector('.header-nav__Link-toggle')
-    .addEventListener('click', classToggle);
+  document.querySelector('.header-nav__Link-toggle').addEventListener('click', classToggle);
 
 //PARTICLES ORANGE//
 particlesJS("particleCanvas-Orange", 

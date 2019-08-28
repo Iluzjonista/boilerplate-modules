@@ -2,16 +2,19 @@
 // When having several themes, this file contains everything related to the
 // default one.
 // -----------------------------------------------------------------------------
-.main-row{
-    display:flex;
-    flex-direction: row;
-    position: relative;
-    width: 100%;
+
+.col-4 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  width: 100%;
 }
 
-.col-md-4{
-    position: relative;
-    min-height: 1px;
-    padding-left: 8px;
-    padding-right: 8px;
+.col-3 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  width: 100%;
 }

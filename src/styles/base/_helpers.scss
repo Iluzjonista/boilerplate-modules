@@ -26,7 +26,31 @@
     padding-right: 20px; /* 3 */
     width: 100%; /* 1 */
    }
+   .main-row{
+    display:flex;
+    flex-direction: column;
+    min-width: $min-width;
+    max-width: $max-width; /* 1 */
+    margin-left: auto; /* 2 */
+    margin-right: auto; /* 2 */
+    width: 100%;
+    flex: 0 0 100%; 
+}
+@media only screen and (min-width: $medium-width) {
+  .main-row{
+    display:flex;
+    flex-direction: row;
+    min-width: $min-width;
+    max-width: $max-width; /* 1 */
+    margin-left: auto; /* 2 */
+    margin-right: auto; /* 2 */
+    width: 100%;
+    flex: 0 0 100%; 
+    padding:10px;
+  }
+    
   
+}
   /**
    * Hide text while making it readable for screen readers
    * 1. Needed in WebKit-based browsers because of an implementation bug;
