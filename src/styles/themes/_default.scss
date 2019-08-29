@@ -2,19 +2,20 @@
 // When having several themes, this file contains everything related to the
 // default one.
 // -----------------------------------------------------------------------------
-
-.col-4 {
+.col-4,
+.col-3,
+.col-2 {
   position: relative;
   min-height: 1px;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  width: 100%;
 }
-
+.col-4 {
+  flex-grow: 1;
+}
 .col-3 {
-  position: relative;
-  min-height: 1px;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  width: 100%;
+  flex-grow: 2;
+}
+.col-2 {
+  flex-grow: 3;
 }

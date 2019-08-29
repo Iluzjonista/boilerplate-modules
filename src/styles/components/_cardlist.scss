@@ -1,7 +1,12 @@
 .main-cardlist {
   background-color: #f2f2f2;
   min-width: $min-width;
-  padding: 3vh;
+  padding: 2rem;
+}
+@media (max-width: $small-width) {
+  .main-cardlist {
+    padding: 0;
+  }
 }
 
 .main-cardlist__Columns {
@@ -16,16 +21,21 @@
     margin-left: 2%;
   }
 }
-
 .main-cardlist__Items {
   margin: 4% 4% 0;
   width: 92%;
   background-color: $white;
 }
 .main-cardlist__Items:hover {
-    transform: translateZ(0) scale(1.01);
-    box-shadow: -6px 0 #f2f2f2, 6px 0 #f2f2f2, 0 7px 12px -3px rgba(0, 0, 0, 0.17);
+  transform: translateZ(0) scale(1.01);
+  box-shadow: -6px 0 #f2f2f2, 6px 0 #f2f2f2, 0 7px 12px -3px rgba(0, 0, 0, 0.17);
+}
+@media (max-width: $small-width) {
+  .main-cardlist__Items {
+    width: 100%;
+    margin: 0 2% 2% 0;
   }
+}
 @media (min-width: $medium-width) {
   .main-cardlist__Items {
     width: 48%;
@@ -33,7 +43,7 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: $max-width) {
   .main-cardlist__Items {
     width: 31.3333333%;
   }
@@ -50,22 +60,33 @@
 .card__image {
   width: 100%;
   order: -1;
+  @media (max-width: $medium-width) {
+    .card__image {
+      width: 50%;
+      order: -1;
+    }
+  }
 }
 
 .card__image img {
   width: 50%;
+  @media (max-width: $medium-width) {
+    .card__image img {
+      width: 33%;
+    }
+  }
 }
 
 .card__heading {
-    margin: 0;
-    padding: .8rem 1rem 1.3rem;
-    text-align: center;
-    word-break: break-word;
-    hyphens: auto;
+  margin: 0;
+  padding: 0.8rem 1rem 1.3rem;
+  text-align: center;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+@media (max-width: $medium-width) {
+  .card__heading {
+    padding: 0.65rem 1rem 0.75rem;
   }
-  
-  @media (max-width:$medium-width) {
-    .card__heading {
-      padding: .65rem 1rem .75rem
-    }
-  }
+}

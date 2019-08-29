@@ -183,3 +183,23 @@
     }
   }
 }
+@media only screen and (max-width: 500px) {
+  .header-intro {
+    .header-intro__Text {
+      h1 {
+        font-size: 60px;
+        line-height: 130px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: $min-width) {
+  .header-intro {
+    .header-intro__Text {
+      h1 {
+        font-size: 50px;
+        line-height: 110px;
+      }
+    }
+  }
+}
