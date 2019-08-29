@@ -1,6 +1,6 @@
 import './styles/main.scss'
 import './js/header.js'
-import '../node_modules/jquery/dist/jquery.min';
+/*import '../node_modules/jquery/dist/jquery.min';
 
 
 $('.count').each(function (_, self) {
@@ -15,4 +15,4 @@ $('.count').each(function (_, self) {
             $(self).text(Math.ceil(this.Counter));
         }
     });
-});
+});*/
